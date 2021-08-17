@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    float:left;
+    width: 35%;
+    padding: 50px 70px 0 70px;
+    box-sizing: border-box;
+    
+}
+.right{
+    box-sizing: border-box;
+    width: 65%;
+    padding: 70px 90px 0 90px;
+    float: right;
+}
+@media screen and (max-width:900px){
+    .left{
+        float:none;
+        padding: 0 70px 0 70px;
+        width: 100%;
+  
+    }
+    .right{
+        box-sizing: border-box;
+        padding: 0 70px 0 70px;
+        float: none;
+        width:100%;
+    } 
+    
+    
+}
+.logo{
+    text-align:center;
+    padding-top: 10px;
+    margin-bottom: 0;
+
+}
+i{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+div{
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+p{
+    margin-bottom: 5px;
+    width: 80%;
+    text-justify: justify;
+}
+.details{
+    background-color: #020323;
+    padding: 80px 30px 30px 30px;
+    color: white;
+    height: 250px;
+}
+li{
+    margin: 1px 0 5px 30px;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
