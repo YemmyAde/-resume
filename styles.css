@@ -20,11 +20,6 @@ body{
     padding: 70px 90px 0 90px;
     float: right;
 }
-p{
-    margin-bottom: 5px;
-    width: 80%;
-    text-justify: justify;
-}
 @media screen and (max-width:900px){
     .left{
         float:none;
@@ -39,20 +34,12 @@ p{
         width:100%;
     } 
     
-    .logo{
-        margin-bottom: 10px;
     
-    }
-    p{
-        width: 100%;
-        
-    }
 }
 .logo{
     text-align:center;
-    padding-top: 10px;
+    padding: 10px 0 20px 0;
     margin-bottom: 0;
-
 }
 i{
     margin-bottom: 5px;
@@ -75,12 +62,16 @@ h3{
     margin-bottom: 5px;
     text-transform: capitalize;
 }
-
+p{
+    margin-bottom: 5px;
+    width: 80%;
+    text-justify: justify;
+}
 .details{
     background-color: #020323;
     padding: 80px 30px 30px 30px;
     color: white;
-    height: 250px;
+    height: 270px;
 }
 li{
     margin: 1px 0 5px 30px;
@@ -89,14 +80,7 @@ a{
     text-decoration: none;
 }
 a img{
-    width: 100px;
+    width: 120px;
     margin-right: 20px;
     margin-top: 50px;
-}
-@media screen and (max-width:900px){
-    .logo{
-        margin-bottom: px;
-    
-    }
-    
 }
